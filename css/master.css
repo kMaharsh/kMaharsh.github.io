@@ -68,3 +68,24 @@
     margin: 0 auto;
     text-align: left;
   }
+.social-icons {
+  align-content:
+    }
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons :hover li a {
+  border-bottom: none;
+  }
+.social-icons li a:not(:hover) {
+  opacity:0.7;
+  }
+.social-icons li img {
+  align-items: flex-start;
+  width:2rem;
+  height:2rem;
+  margin-right: 2rem;
+}
